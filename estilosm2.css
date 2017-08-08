@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #AAAAAA;
+}
+
+/* Left div */
+div#left{
+	margin: 30px;
+	margin-left: 30px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 300px;
+	height: 180px;
+	background-color: lightgray;
+	float: left;
+	text-align : justify;
+	font-size: 20px;
+	font-family: 'Sedgwick Ave', cursive;
+	text-shadow: 2px 1px gray;
+}
+
+/* Center div */
+div#center{
+	margin: 30px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 300px;
+	height: 180px;
+	background-color: lightblue;
+	float: left;
+	text-align : justify;
+	font-size: 20px;
+	font-family: 'Sedgwick Ave', cursive;
+	text-shadow: 2px 1px gray;
+}
+
+/* Right Div */
+div#right{
+	margin: 30px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 300px;
+	height: 180px;
+	background-color: lightgreen;
+	float: left;
+	text-align : justify;
+	font-size: 20px;
+	font-family: 'Sedgwick Ave', cursive;
+	text-shadow: 2px 1px gray;
+}
+
+ 
+ /* Top heading */
+h1 {
+	color: #FF5733;
+	background-color: #2E2EFE;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 40px;
+	font-family: 'Sedgwick Ave', cursive;
+	text-shadow: 2px 1px black;
+}
+
+/* 2nd heading */
+h3 {
+	color: #FF5733;
+	background-color: #2E2EFE;
+	margin: 30px;
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 35px;
+	font-family: 'Sedgwick Ave', cursive;
+	text-shadow: 2px 1px black;
+}
+
+/* Responsive*/
+@media screen and (max-width:640px) {
+    /* reglas CSS */
+    float: none;
+    display: inline-block;
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+    /* reglas CSS */
+    float: none;
+    display: inline-block;
+}
+@media screen and (min-width:1024px) {
+    /* reglas CSS */
+    float: none;
+    display: inline-block;
+}
